@@ -341,3 +341,5 @@ tests/certs/
 # Ralph loop
 RALPH_STOP
 ralph.log
+
+*.lscache

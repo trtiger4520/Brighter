@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <Description>NATS Messaging Gateway for Brighter</Description>
+    <Authors>Ian Cooper</Authors>
+    <TargetFrameworks>$(BrighterTargetFrameworks)</TargetFrameworks>
+    <Nullable>enable</Nullable>
+    <PackageTags>NATS;Message Gateway;Pub/Sub;Command;Event;Service
+      Activator;Decoupled;Invocation;Messaging;Remote;Command Dispatcher;Command
+      Processor;Request;Service;Task Queue;Work Queue;Retry;Circuit Breaker;Availability;Brighter</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NATS.Net" />
+    <ProjectReference Include="..\Paramore.Brighter\Paramore.Brighter.csproj" />
+  </ItemGroup>
+</Project>
